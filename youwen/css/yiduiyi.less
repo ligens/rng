@@ -1,0 +1,216 @@
+@width:100%;
+@wid:100px;
+@height:100px;
+@color:red;
+@col:#000;
+@border:1px;
+*{
+    margin: 0;
+    padding: 0;
+    border-box:box-sizing;
+}
+a{
+    text-decoration: none;
+}
+.head{
+    width: @width;
+    height: @height + 20px;
+    border-bottom: 1px solid @color;
+}
+.left{
+    width: 200px;
+    height: @height - 70px;
+    img{
+        margin-top: 40px;
+        margin-left: 50px;
+    }   
+}
+.right{
+    height: @wid + 20px;
+    font-size:16px ;
+    float: right;
+    margin-right: @wid*2;
+     ul{
+        list-style: none;
+        li{
+            float: left;
+            height: 60px;
+            line-height:60px;
+            text-align: center;
+            margin-left: 35px;
+            a{
+                height:90px;
+                display: block;
+                color:@col;
+                .first{
+                    color: @color;
+                    border-bottom:@border*3 solid @color;
+                }
+                &:hover{
+                        color:@color;
+                        border-bottom:@border*3 solid @color ;
+                    }
+            }
+        }
+    .phone{
+        background: url(../img/phone.png) no-repeat;
+        background-position:0 20px;
+        text-indent: 20px;
+    }
+    }
+}
+.pic{
+    width: @width;
+    text-align: center;
+    height: @wid*5;
+    background: url(../img/banner.png) no-repeat center center;
+    background-size: 100% ;
+}
+.zhong{
+    width: @width;
+    height: 500px;
+    .po{
+        width: 600px;
+        height: 400px;
+        float: left;
+        img{
+            width: @width;
+        }
+    }
+}
+.fr{
+    width: 100%;
+    height: 500px;
+    .rl{
+        width: 1100px;
+        height: 500px;
+        margin: 0 auto;
+    }
+}
+.bie{
+    width:@width;
+    font-size:22px;
+    color: @col;
+    margin:0 auto ;
+    display: block;
+    text-align: center;
+    margin-bottom:50px ;
+    span{
+        color: @color;
+        font-size: 30px;
+    }
+}
+.tp{
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-right: 100px;
+    h4{
+        color: @color;
+        font-size:22px ;
+        height: 25px;
+        float: left;
+        margin-bottom:20px ;
+    }
+    .pan{
+        width: @width;
+        font-size: 19px;
+        display: inline-block;
+        padding-top:5px ;
+    }
+}
+.ho{
+    width: 400px;
+    height: 60px;
+    margin-top:30px ;
+}
+.hao{
+    display: block;
+    border-radius: 10px;
+    width: 190px;
+    height: 60px;
+    background: #ff000e;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+//  margin: 0 auto;
+    
+}
+.zui{
+    width: 100%;
+    height:700px;
+}
+.zui{
+    width: 100%;
+    height: 600px;
+    .nba{
+        width: @width;
+        height: 500px;
+        .hong{
+            width: 1100px;
+            height: 500px;
+            margin: 0 auto;
+            .nav{
+                width:350px ;
+                height: 450px; 
+                float: left;
+                .one{
+                    width: 300px;
+                    height: 200px;
+                    span:nth-child(1){
+                            width: 70px;
+                            height: 85px;
+                            font-size: 60px;
+                            color: #ccc;
+                            float: left;
+                    }
+                    span:nth-child(2){
+                            font-size: 24px;
+                            display: inline-block;
+                            float: left;
+                            width: 250px;
+                            height: 85px;
+                            line-height: 85px;
+                            text-align: left;
+                    }
+                    span{
+                            display: inline-block;
+                            width: 250px;
+                            height: 115px;
+                            font-size: 16px;
+                            float: right;
+                    }
+                }
+            }
+            .fater{
+                    width: 400px;
+                    height: 450px;
+                    float: left;
+                    img{
+                        display: block;
+                        width: 270px;
+                        height: 450px;
+                        margin: 0 auto;
+                    }
+            }
+        }
+        
+    }
+    .ha{
+    display: block;
+    border-radius: 10px;
+    width: 190px;
+    height: 60px;
+    background: #ff000e;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+    margin: 0 auto;
+
+    
+}
+}

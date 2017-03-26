@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-box: box-sizing;
+}
+a {
+  text-decoration: none;
+}
+.head {
+  width: 100%;
+  height: 120px;
+  border-bottom: 1px solid #ff0000;
+}
+.left {
+  width: 200px;
+  height: 30px;
+}
+.left img {
+  margin-top: 40px;
+  margin-left: 50px;
+}
+.right {
+  height: 120px;
+  font-size: 16px ;
+  float: right;
+  margin-right: 200px;
+}
+.right ul {
+  list-style: none;
+}
+.right ul li {
+  float: left;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  margin-left: 35px;
+}
+.right ul li a {
+  height: 90px;
+  display: block;
+  color: #000000;
+}
+.right ul li a .first {
+  color: #ff0000;
+  border-bottom: 3px solid #ff0000;
+}
+.right ul li a:hover {
+  color: #ff0000;
+  border-bottom: 3px solid #ff0000;
+}
+.right ul .phone {
+  background: url(../img/phone.png) no-repeat;
+  background-position: 0 20px;
+  text-indent: 20px;
+}
+.pic {
+  width: 100%;
+  text-align: center;
+  height: 500px;
+  background: url(../img/banner.png) no-repeat center center;
+  background-size: 100% ;
+}
+.zhong {
+  width: 100%;
+  height: 500px;
+}
+.zhong .po {
+  width: 600px;
+  height: 400px;
+  float: left;
+}
+.zhong .po img {
+  width: 100%;
+}
+.fr {
+  width: 100%;
+  height: 500px;
+}
+.fr .rl {
+  width: 1100px;
+  height: 500px;
+  margin: 0 auto;
+}
+.bie {
+  width: 100%;
+  font-size: 22px;
+  color: #000000;
+  margin: 0 auto ;
+  display: block;
+  text-align: center;
+  margin-bottom: 50px ;
+}
+.bie span {
+  color: #ff0000;
+  font-size: 30px;
+}
+.tp {
+  width: 400px;
+  height: 400px;
+  float: left;
+  margin-right: 100px;
+}
+.tp h4 {
+  color: #ff0000;
+  font-size: 22px ;
+  height: 25px;
+  float: left;
+  margin-bottom: 20px ;
+}
+.tp .pan {
+  width: 100%;
+  font-size: 19px;
+  display: inline-block;
+  padding-top: 5px ;
+}
+.ho {
+  width: 400px;
+  height: 60px;
+  margin-top: 30px ;
+}
+.hao {
+  display: block;
+  border-radius: 10px;
+  width: 190px;
+  height: 60px;
+  background: #ff000e;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 60px;
+  cursor: pointer;
+}
+.zui {
+  width: 100%;
+  height: 700px;
+}
+.zui {
+  width: 100%;
+  height: 600px;
+}
+.zui .nba {
+  width: 100%;
+  height: 500px;
+}
+.zui .nba .hong {
+  width: 1100px;
+  height: 500px;
+  margin: 0 auto;
+}
+.zui .nba .hong .nav {
+  width: 350px ;
+  height: 450px;
+  float: left;
+}
+.zui .nba .hong .nav .one {
+  width: 300px;
+  height: 200px;
+}
+.zui .nba .hong .nav .one span:nth-child(1) {
+  width: 70px;
+  height: 85px;
+  font-size: 60px;
+  color: #ccc;
+  float: left;
+}
+.zui .nba .hong .nav .one span:nth-child(2) {
+  font-size: 24px;
+  display: inline-block;
+  float: left;
+  width: 250px;
+  height: 85px;
+  line-height: 85px;
+  text-align: left;
+}
+.zui .nba .hong .nav .one span {
+  display: inline-block;
+  width: 250px;
+  height: 115px;
+  font-size: 16px;
+  float: right;
+}
+.zui .nba .hong .fater {
+  width: 400px;
+  height: 450px;
+  float: left;
+}
+.zui .nba .hong .fater img {
+  display: block;
+  width: 270px;
+  height: 450px;
+  margin: 0 auto;
+}
+.zui .ha {
+  display: block;
+  border-radius: 10px;
+  width: 190px;
+  height: 60px;
+  background: #ff000e;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 60px;
+  cursor: pointer;
+  margin: 0 auto;
+}

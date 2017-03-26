@@ -1,0 +1,170 @@
+@width:100%;
+@wid:100px;
+@height:100px;
+@color:red;
+@col:#000;
+@border:1px;
+*{
+    margin: 0;
+    padding: 0;
+    border-box:box-sizing;
+}
+a{
+    text-decoration: none;
+}
+.head{
+    width: @width;
+    height: @height + 20px;
+    border-bottom: 3px solid @color;
+}
+.left{
+    width: 200px;
+    height: @height - 70px;
+    img{
+        margin-top: 40px;
+        margin-left: 50px;
+    }   
+}
+.right{
+    height: @wid + 20px;
+    font-size:16px ;
+    float: right;
+    margin-right: @wid*2;
+     ul{
+        list-style: none;
+        li{
+            float: left;
+            height: 60px;
+            line-height:60px;
+            text-align: center;
+            margin-left: 35px;
+            a{
+                height:90px;
+                display: block;
+                color:@col;
+                .first{
+                    color: @color;
+                    border-bottom:@border*3 solid @color;
+                }
+                &:hover{
+                        color:@color;
+                        border-bottom:@border*3 solid @color ;
+                    }
+            }
+        }
+    .phone{
+        background: url(../img/phone.png) no-repeat;
+        background-position:0 20px;
+        text-indent: 20px;
+    }
+    }
+}
+.pic{
+    width: @width;
+    text-align: center;
+    height: @wid*3.5;
+    background: url(../img/class/abcdefg.png) no-repeat center center;
+    background-size: 100% ;
+}
+#zuo{
+    width: 130px;
+    height: 200px;
+    border: 1px solid #fff;
+    float: left;
+    margin-right:30px ;
+    ul{
+        list-style: none;
+    }
+    li{
+        width: 130px;
+        height: 50px;
+        float: left;
+        text-align: left;
+        border: 1px solid #fff;
+        line-height: 50px;
+        text-align: center;
+        a{  width: 130px;
+            height:50px ;
+            display: block;
+            text-decoration:none;
+            color: #000000;
+            border-radius: 20px;
+        }
+    }
+}
+#con{
+    width: 600px;
+    height: 200px;
+    border: 1px solid #fff;
+    float: left;
+    margin: 0 auto;
+    margin-top:20px ;
+    p{
+        font-size: 20px;
+    }
+    span{
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 5px;
+    }
+    .xia{
+        font-size:14px ;
+        margin-top: 5px;
+    }
+     #a1{
+         display: block;
+         height:150px ;
+     }
+     div{
+         display: none;
+     }
+    img{
+    width: 170px;
+    height: 120px;
+    float: left;
+    margin-right: 20px;
+    }
+}
+#zuo ul li:nth-child(1) a{
+            background: url(../img/class/star.png) no-repeat;
+             background-position: 10px 11px;
+        }
+#zuo ul li:nth-child(1) a:hover{
+            background: url(../img/class/star1.png) no-repeat;
+            background-position: -10px 5px;
+        }        
+#zuo ul li:nth-child(2) a{
+            background: url(../img/class/tip.png) no-repeat;
+              background-position: 10px 11px;
+        }
+#zuo ul li:nth-child(2) a:hover{
+            background: url(../img/class/tip1.png) no-repeat;
+            background-position: -10px 5px;
+        }
+#zuo ul li:nth-child(3) a{
+            background: url(../img/class/screen.png) no-repeat;
+            background-position: 10px 11px;
+            
+        }
+#zuo ul li:nth-child(3) a:hover{
+            background: url(../img/class/screen1.png) no-repeat;
+            background-position: -10px 5px;
+        }
+#zuo ul li:nth-child(4) a{
+            background: url(../img/class/doctor.png) no-repeat;
+            background-position: 10px 11px;
+            
+}
+#zuo ul li:nth-child(4) a:hover{
+            background: url(../img/class/doctor1.png) no-repeat;
+            background-position: -10px 5px;
+}
+.zhong{
+    width: 100%;
+    height: auto;
+    .ci{
+        width: 800px;
+        height: 400px;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/jquery.fullPage.css">
+		<link rel="stylesheet" type="text/css" href="css/tech.css"/>
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/jquery.fullPagee.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+		<script type="text/javascript" 	src="js/jquery_top.js"></script>
+			<script>
+		$(function(){
+		$('#dowebok').fullpage({
+		sectionsColor: ["#fff","#fff","#fff","#fff"],
+		scrollBar:true
+		});
+			new WOW().init();
+			$(".ding").top({"speen":1000,"animate":"slide"})
+			$(".weixin").mouseover(function(){
+			$(".ma").css("display","block")
+		}).mouseout(function(){
+			$(".ma").css("display","none")
+		})
+	});
+</script>
+	</head>
+	<body>
+		<div id="dowebok">
+			<div class="section">
+		<div class="head"> 
+			<div class="left"><img src="img/logo.png" alt="" class="wow bounce"/></div>
+			<div class="right">
+				<ul class="wow wobble">
+					<li><a href="index.html" class="first">首页</a></li>
+					<li><a href="tech.html">教学理念</a></li>
+					<li><a href="class.html">课程体系</a></li>
+					<li><a href="teacher.html">师资力量</a></li>
+					<li><a href="study.html">学习流程</a></li>
+					<li><a href="ketang.html">优问课堂</a></li>
+					<li><a href="yiduiyi.html">在线一对一</a></li>
+					<li class="phone"><a href="">电话:400-777-5029</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="jifa">
+			<p class="gao wow bounceInLeft">激发学习动力 &nbsp;&nbsp;提高学习能力&nbsp;&nbsp;强化学习毅力</p>
+			<span class="cheng wow bounceInLeft">一对一定制专属你的学习方案</span>
+		
+		<div class="hao">
+			<div class="ting">
+				<a href="">免费预约</a>
+			</div>
+			</div>
+		</div>
+			</div>
+		<div class="section">
+			<div class="pic">
+					<img src="img/teachidea/cont1bg.png" alt=""  class="wow bounceInRight"/>
+					<p class="wow rotateInUpLeft">影响学习力三要素</p>
+			</div>	
+		</div>
+		<div class="section">
+		 <div class="zhong">
+		 	<p class="wow rotateInDownLeft">激发学习动力</p>
+		 	<img src="img/teachidea/cont2bg.png" alt="" class="wow bounceInRight"/ >
+		 </div>
+		</div>
+		<div class="section">
+		 <div class="zhong odd">
+		 	<p class="wow rotateInDownRight" style="color: #78d432;">激发学习动力</p>
+		 	<img src="img/teachidea/cont3bg.png" class="wow bounceInLeft"/>
+		 </div>
+		</div>
+		<div class="section">
+		 <div class="zhong wo">
+		 	<p class="wow rotateInDownLeft" style="color: #ffa800;">激发学习动力</p>
+		 	<img src="img/teachidea/cont4bg.png" class="wow bounceInRight"/>
+		 </div>
+		</div>
+		
+		</div>
+		<div class="weixin"></div>
+		<div class="ma" style="display: none;"></div>
+		<div class="hefu"></div>
+		<div class="ding"></div>
+	</body>
+</html>
